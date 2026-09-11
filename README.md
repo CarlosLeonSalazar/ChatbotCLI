@@ -202,6 +202,7 @@ uv run python tests/test_memory_nopytest.py
 
 ### Puntos de entrada del proyecto
 
+- **Una vez instalado ejecutar en terminal**: uv tool install --editable . Para poder usar comando global `chatbotcli`
 - **Comando global (recomendado)**: `chatbotcli` - Funciona desde cualquier ubicación y terminal tras instalar correctamente
 - **Con uv**: `uv run python -m ui.app` - Desde el directorio del proyecto
 - **Punto de entrada instalado**: `chatbotcli = "ui.app:main"` (definido en `pyproject.toml`)
