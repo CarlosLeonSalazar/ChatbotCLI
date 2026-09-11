@@ -207,6 +207,21 @@ uv run python tests/test_memory_nopytest.py
 - **Con uv**: `uv run python -m ui.app` - Desde el directorio del proyecto
 - **Punto de entrada instalado**: `chatbotcli = "ui.app:main"` (definido en `pyproject.toml`)
 
+## Clonar el repositorio
+
+- **Tener "uv" instalado** (Recomendado)
+- `git clone <repositorio> chat`
+- `uv sync`
+- `uv tool install --editable .`
+- Ejecutar comando `chatbotcli` desde cualquier ubicación en PowerShell, cmd, Bash, Git
+
+## Activar y desactivar entorno virtual
+
+- Windows: `.venv\Scripts\activate`
+- Linux: `source .venv\bin\activate`
+
+- Desactivar: `deactivate`
+
 ## 🗄️ Persistencia
 
 El proyecto utiliza dos sistemas de persistencia:
