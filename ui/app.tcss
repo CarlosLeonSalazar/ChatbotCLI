@@ -1,0 +1,47 @@
+Screen {
+    background: $surface;
+}
+
+#input-bar {
+    height: auto;
+    dock: bottom;
+    padding: 0 1;
+    margin: 0 0 0 1;
+    max-height: 8;
+}
+
+#input {
+    width: 1fr;
+}
+
+#send-btn {
+    width: auto;
+    margin-left: 1;
+}
+
+.section-title {
+    text-style: bold;
+    padding: 1 2 0 2;
+    color: $text-muted;
+}
+
+#chat-list {
+    height: 1fr;
+    padding: 0 1;
+}
+
+LoginScreen {
+    align: center middle;
+}
+
+#login-box {
+    width: 60;
+    height: auto;
+    padding: 1 2;
+    border: round $primary;
+}
+
+.hint {
+    color: $text-muted;
+    padding-bottom: 1;
+}
